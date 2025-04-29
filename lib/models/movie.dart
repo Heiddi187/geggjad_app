@@ -5,8 +5,10 @@ class Movie {
   final String genre;
   final String imageUrl;
   final String id;
+  final String startTime;
 
   Movie({
+    required this.startTime,
     required this.id,
     required this.title,
     required this.description,

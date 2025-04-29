@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 List movieList = [
   Movie(
+    startTime: "12:00",
     id: "1",
     title: 'Inception',
     description:
@@ -13,6 +14,7 @@ List movieList = [
     genre: 'Action, Science Fiction',
   ),
   Movie(
+    startTime: "15:00",
     id: "2",
     title: 'The Dark Knight',
     description:
@@ -23,6 +25,7 @@ List movieList = [
     genre: 'Action, Crime, Drama',
   ),
   Movie(
+    startTime: "18:00",
     id: "3",
     title: 'Interstellar',
     description:
@@ -33,6 +36,7 @@ List movieList = [
     genre: 'Adventure, Science Fiction',
   ),
   Movie(
+    startTime: "21:00",
     id: "4",
     title: 'The Matrix',
     description:
